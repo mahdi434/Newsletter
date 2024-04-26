@@ -86,10 +86,7 @@
 <?php
 
 session_start();
-//if(isset($_SESSION['uId'])){
-   // echo "<script> location.assign('index.php'); </script>";
 
-//}
 
   $con = mysqli_connect("localhost","root","","newslitter");
   $query = "SELECT * FROM `football`";
